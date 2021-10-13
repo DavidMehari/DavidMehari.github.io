@@ -1,0 +1,80 @@
+body {
+    background-image: url("assets/topography.png");
+    margin: 0;
+    font-family: courier;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+a,
+h2.course {
+    color: #ff0099;
+    font-family: "Roboto", sans-serif;
+}
+
+nav a:hover {
+    color: #e69ac7;
+    text-decoration: none;
+}
+
+header {
+    background-color: #333;
+    display: flex;
+}
+
+header,
+main,
+footer {
+    padding: 0 10%;
+}
+#logo-wrapper {
+    flex: 1;
+    display: flex;
+}
+
+#logo-wrapper img {
+    padding: 8px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+main {
+    padding-top: 60px;
+}
+
+.separator {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.separator .line {
+    height: 2px;
+    width: 15px;
+    background: black;
+    margin: 0 20px;
+}
+
+#tech-wiki h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+}
